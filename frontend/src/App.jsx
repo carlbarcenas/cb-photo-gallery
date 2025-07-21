@@ -5,7 +5,6 @@ import Sidebar from './components/Sidebar'
 function App() {
   return (
     <>
-      <div>
         <header>
           <h1>CB Photography</h1>
           <p>All shots captured using the Fujifilm X100VI</p>
@@ -14,7 +13,6 @@ function App() {
           <Sidebar />
           <Gallery />
         </div>
-      </div>
     </>
   )
 }

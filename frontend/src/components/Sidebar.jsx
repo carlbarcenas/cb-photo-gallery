@@ -1,7 +1,7 @@
 function Sidebar() {
     // TO-DO: Can I make this dynamic? That way when uploading a photo, I can add a new section to the sidebar?
     return (
-        <aside>
+        <aside className="sidebar">
             <h2>Albums</h2>
             <nav>
                 <li>All Photos</li>
